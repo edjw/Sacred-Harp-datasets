@@ -1,0 +1,6 @@
+.venv/
+.cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+~$*.xlsx

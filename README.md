@@ -1,6 +1,11 @@
 # Sacred Harp datasets
 
-This is a single dataset of all the songs in *The Sacred Harp, 1991 Edition (Denson Revision)*. A `.csv` spreadsheet and a `.json` file are available.
+Song datasets for *The Sacred Harp*, available as CSV and JSON:
+
+| Edition | CSV | JSON |
+| --- | --- | --- |
+| 1991 | [CSV](1991/sacred_harp_1991.csv) | [JSON](1991/sacred_harp_1991.json) |
+| 2025 | [CSV](2025/sacred_harp_2025.csv) | [JSON](2025/sacred_harp_2025.json) |
 
 Where the data exists, these data are available:
 
@@ -14,5 +19,9 @@ Where the data exists, these data are available:
 * poetic meter
 * lyrics
 * time signature
-  
-The data is consolidated from the [main index of songs on fasola.org](https://fasola.org/indexes/1991/) and [a time signature index](https://fasola.org/indexes/timesigs/denson/).
+
+Both editions use these columns, in this order:
+
+```text
+song_number,bare_song_number,song_title,composer_source,composition_date,poet_source,poet_date,meter,lyrics,time_signature
+```
