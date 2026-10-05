@@ -19,9 +19,3 @@ Where the data exists, these data are available:
 * poetic meter
 * lyrics
 * time signature
-
-Both editions use these columns, in this order:
-
-```text
-song_number,bare_song_number,song_title,composer_source,composition_date,poet_source,poet_date,meter,lyrics,time_signature
-```
